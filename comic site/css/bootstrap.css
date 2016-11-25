@@ -1,24 +1,21 @@
-*{
+* {
     transition: 0.6s;
 }
 
-.main-div
-{
+.main-div {
     position: relative;
     width: 130px;
     height: 198px;
-       cursor: pointer;
+    cursor: pointer;
 }
 
-.main-div:hover .title-span-holder
-{
+.main-div:hover .title-span-holder {
     opacity: 0.9;
     filter: Alpha(opacity=50);
     transition: 0.6s;
 }
 
-.comic-thumb
-{
+.comic-thumb {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,21 +24,19 @@
     margin: 5%;
 }
 
-.title-span-holder
-{
+.title-span-holder {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
     background: black;
     height: 100%;
-         opacity: 0;
+    opacity: 0;
     color: whitesmoke;
     margin: 5%;
 }
 
-.title-span
-{
+.title-span {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -51,8 +46,6 @@
     padding-left: 5px;
     padding-right: 5px;
 }
-
-
 
 @font-face {
     font-family: comic;
@@ -168,7 +161,9 @@ html {
     letter-spacing: 2px;
 }
 
+
 /*Width: 130px Heigth:198px*/
+
 #comic-slot {
     font-family: comic;
     box-shadow: inset 0px -54px 0px 0px #F31C00;
@@ -180,51 +175,49 @@ html {
     transition: 0.7s;
 }
 
-.flex-grid
-{
+.flex-grid {
     margin: 0.5%;
     display: flex;
     justify-content: flex-start;
 }
 
-#comic-slot1:hover
-{
+#comic-slot1:hover {
     opacity: 0.5;
     transition: 0.7s;
 }
 
 #flex-grid p {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    visibility: hidden;
 }
 
 span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
 }
 
 span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 ul.img-list li:hover span.text-content {
-  opacity: 1;
+    opacity: 1;
 }
 
 body {
