@@ -18,6 +18,7 @@ body{
     margin: 0.5%;
     left : 43.7%;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .main-div:hover .title-span-holder1 {
@@ -177,6 +178,11 @@ body{
     padding-left: 5px;
     padding-right: 5px;
     font-family: comic;
+}
+
+.bottombar{
+    background: #212121;
+    height: 50px;
 }
 
 @font-face {
@@ -362,6 +368,9 @@ html {
     display: flex;
     justify-content: center;
     background-color: #212121;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
 }
 
 .dropbtn {
@@ -8520,3 +8529,8 @@ button.close {
 
 
 /*# sourceMappingURL=bootstrap.css.map */
+.btmtxt {
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+}
