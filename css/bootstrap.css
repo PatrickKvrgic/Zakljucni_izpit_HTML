@@ -11,79 +11,136 @@ body{
 }
 
 .main-div {
+    position:relative;
+    width:100%;
+    text-align:center;
+    display: inline-block;
+}
+
+.pic-div1 {
+    position:relative;
+    display:inline-block;
+    width:130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div2 {
+    position:relative;
+    display:inline-block;
+    width:130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div3 {
     position: relative;
+    display:inline-block;
     width: 130px;
     height: 198px;
-    cursor: pointer;
-    margin: 0.5%;
-    left : 43.7%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin: 50px;
 }
 
-.main-div:hover .title-span-holder1 {
+.pic-div4 {
+    position: relative;
+    display:inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div5 {
+    position: relative;
+    display:inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div6 {
+    position: relative;
+    display:inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div1:hover .title-span-holder1 {
     opacity: 0.9;
     filter: Alpha(opacity=50);
 }
 
-.main-div:hover .title-span-holder2 {
+.pic-div2:hover .title-span-holder2 {
     opacity: 0.9;
     filter: Alpha(opacity=50);
 }
 
-.main-div:hover .title-span-holder3 {
+.pic-div3:hover .title-span-holder3 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div4:hover .title-span-holder4 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div5:hover .title-span-holder5 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div6:hover .title-span-holder6 {
     opacity: 0.9;
     filter: Alpha(opacity=50);
 }
 
 .comic-thumb1 {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: 5%;
-    border: black 2px;
+    border: black 3px;
     border-style: solid;
 }
 
 .comic-thumb2 {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: 5%;
-    border: black 2px;
+    border: black 3px;
     border-style: solid;
 }
 
 .comic-thumb3 {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: 5%;
-    border: black 2px;
+    border: black 3px;
     border-style: solid;
 }
 
 .comic-thumb4 {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: 5%;
-    border: black 2px;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb5 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb6 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
     border-style: solid;
 }
 
 .title-span-holder1 {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-49%);
     width: 132px;
     background: black;
     height: 202px;
@@ -91,12 +148,13 @@ body{
     color: whitesmoke;
     margin: 5%;
     font-family: comic;
+    right: -63%;
 }
 
 .title-span-holder2 {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-49%);
     width: 132px;
     background: black;
     height: 202px;
@@ -104,12 +162,13 @@ body{
     color: whitesmoke;
     margin: 5%;
     font-family: comic;
+    right: -63%;
 }
 
 .title-span-holder3 {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-49%);
     width: 132px;
     background: black;
     height: 202px;
@@ -117,12 +176,13 @@ body{
     color: whitesmoke;
     margin: 5%;
     font-family: comic;
+    right: -63%;
 }
 
 .title-span-holder4 {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-49%);
     width: 132px;
     background: black;
     height: 202px;
@@ -130,6 +190,35 @@ body{
     color: whitesmoke;
     margin: 5%;
     font-family: comic;
+    right: -63%;
+}
+
+.title-span-holder5 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -63%;
+}
+
+.title-span-holder6 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -63%;
 }
 
 .title-span1 {
@@ -142,6 +231,7 @@ body{
     padding-left: 5px;
     padding-right: 5px;
     font-family: comic;
+    left: 0%;
 }
 
 .title-span2 {
@@ -154,6 +244,7 @@ body{
     padding-left: 5px;
     padding-right: 5px;
     font-family: comic;
+    left: 0%;
 }
 
 .title-span3 {
@@ -166,6 +257,7 @@ body{
     padding-left: 5px;
     padding-right: 5px;
     font-family: comic;
+    left: 0%;
 }
 
 .title-span4 {
@@ -178,8 +270,34 @@ body{
     padding-left: 5px;
     padding-right: 5px;
     font-family: comic;
+    left: 0%;
 }
 
+.title-span5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
 .bottombar{
     background: #212121;
     height: 50px;
