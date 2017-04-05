@@ -6,36 +6,60 @@
 
 /*Comic Title*/
 
-body{
+body {
     background-image: url(../img/comic_wall.jpg);
+    display: inline-block;
+    width: 100%;
 }
 
 .main-div {
-    position:relative;
-    width:75%;
-    text-align:left;
+    position: relative;
+    width: 75%;
+    text-align: left;
     display: inline-block;
 }
 
+.popular {
+    display: inline-block;
+    z-index: 1;
+    color: red;
+    font-size: 25px;
+    font-family: comic;
+    text-align: center;
+    background-color: #212121;
+    height: 100%;
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.bottombar {
+    background: #212121;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    color: whitesmoke;
+}
+
 .pic-div1 {
-    position:relative;
-    display:inline-block;
-    width:130px;
+    position: relative;
+    display: inline-block;
+    width: 130px;
     height: 198px;
     margin: 50px;
 }
 
 .pic-div2 {
-    position:relative;
-    display:inline-block;
-    width:130px;
+    position: relative;
+    display: inline-block;
+    width: 130px;
     height: 198px;
     margin: 50px;
 }
 
 .pic-div3 {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     width: 130px;
     height: 198px;
     margin: 50px;
@@ -43,7 +67,7 @@ body{
 
 .pic-div4 {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     width: 130px;
     height: 198px;
     margin: 50px;
@@ -51,7 +75,7 @@ body{
 
 .pic-div5 {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     width: 130px;
     height: 198px;
     margin: 50px;
@@ -59,7 +83,7 @@ body{
 
 .pic-div6 {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     width: 130px;
     height: 198px;
     margin: 50px;
@@ -67,7 +91,7 @@ body{
 
 .pic-div7 {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     width: 130px;
     height: 198px;
     margin: 50px;
@@ -75,7 +99,7 @@ body{
 
 .pic-div8 {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     width: 130px;
     height: 198px;
     margin: 50px;
@@ -83,7 +107,7 @@ body{
 
 .pic-div9 {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     width: 130px;
     height: 198px;
     margin: 50px;
@@ -440,11 +464,6 @@ body{
     left: 0%;
 }
 
-.bottombar{
-    background: #212121;
-    height: 50px;
-}
-
 @font-face {
     font-family: comic;
     src: url('../fonts/LuckiestGuy.ttf');
@@ -587,17 +606,17 @@ html {
     border-style: solid;
 }
 
-.previewbox{
+.previewbox {
     display: flex;
     background-color: #212121;
     justify-content: center;
 }
 
-.pic{
+.pic {
     margin-top: 8px;
 }
 
-.back{
+.back {
     display: flex;
     margin: 0;
     justify-content: center;
@@ -608,7 +627,7 @@ html {
     border-top: black 5px;
 }
 
-.backb{
+.backb {
     display: flex;
     margin: 0;
     justify-content: center;
@@ -619,7 +638,19 @@ html {
     border: #212121 5px;
 }
 
+li {
+    list-style-type: none;
+}
 
+.pop1 {
+    color: whitesmoke;
+    font-family: comic;
+}
+
+.pop2 {
+    color: whitesmoke;
+    font-family: comic;
+}
 
 
 /*.intro-text-flex
@@ -690,8 +721,7 @@ html {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
-    z-index: 1;
+    background-color: #f1f1f1 z-index: 1;
 }
 
 
@@ -8800,6 +8830,7 @@ button.close {
 
 
 /*# sourceMappingURL=bootstrap.css.map */
+
 .btmtxt {
     color: whitesmoke;
     text-align: center;
