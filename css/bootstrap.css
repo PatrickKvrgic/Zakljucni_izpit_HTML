@@ -27,10 +27,11 @@ body {
     font-family: comic;
     text-align: center;
     background-color: #212121;
-    height: 100%;
+    height: inherit;
     width: 20%;
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 250px;
 }
 
 .bottombar {
@@ -113,6 +114,86 @@ body {
     margin: 50px;
 }
 
+.pic-div10 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div11 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div12 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div13 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div14 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div15 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div16 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div17 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div18 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div19 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
 .pic-div1:hover .title-span-holder1 {
     opacity: 0.9;
     filter: Alpha(opacity=50);
@@ -154,6 +235,56 @@ body {
 }
 
 .pic-div9:hover .title-span-holder9 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div10:hover .title-span-holder10 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div11:hover .title-span-holder11 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div12:hover .title-span-holder12 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div13:hover .title-span-holder13 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div14:hover .title-span-holder14 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div15:hover .title-span-holder15 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div16:hover .title-span-holder16 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div17:hover .title-span-holder17 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div18:hover .title-span-holder18 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div19:hover .title-span-holder19 {
     opacity: 0.9;
     filter: Alpha(opacity=50);
 }
@@ -215,6 +346,76 @@ body {
 }
 
 .comic-thumb9 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb10 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb11 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb12 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb13 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb14 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb15 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb16 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb17 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb18 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb19 {
     position: absolute;
     margin: 5%;
     border: black 3px;
@@ -347,6 +548,146 @@ body {
     right: -13%;
 }
 
+.title-span-holder10 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder11 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder12 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder13 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder14 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder15 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder16 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder17 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder18 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder19 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
 .title-span1 {
     position: absolute;
     width: 100%;
@@ -464,6 +805,136 @@ body {
     left: 0%;
 }
 
+.title-span10 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span11 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span12 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span13 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span14 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span15 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span16 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span17 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span18 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span19 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
 @font-face {
     font-family: comic;
     src: url('../fonts/LuckiestGuy.ttf');
@@ -553,6 +1024,11 @@ html {
     color: whitesmoke;
 }
 
+.wLink:hover {
+    text-decoration: none;
+    color: red;
+}
+
 .artist {
     display: flex;
     margin: 0;
@@ -566,6 +1042,11 @@ html {
 .aLink {
     text-decoration: none;
     color: whitesmoke;
+}
+
+.aLink:hover {
+    text-decoration: none;
+    color: red;
 }
 
 .char {
@@ -638,6 +1119,10 @@ html {
     border: #212121 5px;
 }
 
+.backb:hover {
+    color: red;
+}
+
 li {
     list-style-type: none;
 }
@@ -645,6 +1130,18 @@ li {
 .pop1 {
     color: whitesmoke;
     font-family: comic;
+    text-decoration: none;
+}
+
+.pop1link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: comic;
+}
+
+.pop1link:hover {
+    color: red;
+    text-decoration: none;
 }
 
 .pop2 {
