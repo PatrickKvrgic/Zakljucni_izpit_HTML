@@ -194,6 +194,46 @@ body {
     margin: 50px;
 }
 
+.pic-div20 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div21 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div22 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div23 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
+.pic-div24 {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 198px;
+    margin: 50px;
+}
+
 .pic-div1:hover .title-span-holder1 {
     opacity: 0.9;
     filter: Alpha(opacity=50);
@@ -285,6 +325,31 @@ body {
 }
 
 .pic-div19:hover .title-span-holder19 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div20:hover .title-span-holder20 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div21:hover .title-span-holder21 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div22:hover .title-span-holder22 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div23:hover .title-span-holder23 {
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+}
+
+.pic-div24:hover .title-span-holder24 {
     opacity: 0.9;
     filter: Alpha(opacity=50);
 }
@@ -416,6 +481,41 @@ body {
 }
 
 .comic-thumb19 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb20 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb21 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb22 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb23 {
+    position: absolute;
+    margin: 5%;
+    border: black 3px;
+    border-style: solid;
+}
+
+.comic-thumb24 {
     position: absolute;
     margin: 5%;
     border: black 3px;
@@ -688,6 +788,76 @@ body {
     right: -13%;
 }
 
+.title-span-holder20 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder21 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder22 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder23 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
+.title-span-holder24 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-49%);
+    width: 132px;
+    background: black;
+    height: 202px;
+    opacity: 0;
+    color: whitesmoke;
+    margin: 5%;
+    font-family: comic;
+    right: -13%;
+}
+
 .title-span1 {
     position: absolute;
     width: 100%;
@@ -935,6 +1105,71 @@ body {
     left: 0%;
 }
 
+.title-span20 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span21 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span22 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span23 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
+.title-span24 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: comic;
+    left: 0%;
+}
+
 @font-face {
     font-family: comic;
     src: url('../fonts/LuckiestGuy.ttf');
@@ -1117,10 +1352,13 @@ html {
     color: whitesmoke;
     padding: 10px;
     border: #212121 5px;
+    border-radius: 25px;
 }
 
 .backb:hover {
     color: red;
+    background: black;
+    border-radius: 25px;
 }
 
 li {
